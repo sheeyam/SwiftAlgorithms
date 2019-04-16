@@ -1,7 +1,7 @@
 import Foundation
 
 class BubbleSort {
-
+    //Bubble Sort Function
     func bubbleSort(nums: [Int]) -> [Int]{
         var numbers = nums
 
@@ -18,6 +18,7 @@ class BubbleSort {
     }
 }
 
+//Print Sorted Array
 let bsort = BubbleSort()
 let sortedArray = bsort.bubbleSort(nums: [6, 2, 7, 1, 4])
 print("Bubble Sorted Array => ", sortedArray)
